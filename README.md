@@ -22,42 +22,18 @@ Real-time one-to-one messaging
 
 Auto scroll to latest message
 
-Chat room generation using user IDs
 
-🟢 Presence System
 
-Online status
-
-Last seen timestamp
-
-Auto update on app open/close
-
-✓ Message Status
-
-✓ Sent
-
-✓✓ Delivered
-
-✓✓ Blue when seen
-
-🔔 Push Notifications
-
-Firebase Cloud Messaging (FCM)
-
-Notification when app is closed
-
-📜 Recent Chats
-
-Sorted by latest message
-
-Displays username + last message
-
-Realtime updates
+<br>
 
 👨‍💻 Developer
 
 Gopi Kumar                                                                                                                                                                                                           
-Android Developer | Firebase Enthusiast                                                                                                                                                                             
+Android Developer | Firebase Enthusiast        
+
+
+</br>
+
 
 ⭐ Support
 
