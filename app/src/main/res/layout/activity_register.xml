@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F2A4A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_marginTop="20dp">
+
+        <!-- App Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/talkhub"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account_now"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- Full Name -->
+        <TextView
+            android:text="@string/full_name"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:autofillHints="Name"
+            android:background="@drawable/rounded_edittext"
+            android:inputType="text"
+            android:padding="15dp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="LabelFor" />
+        <TextView
+            android:text="@string/username"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:autofillHints=""
+            android:background="@drawable/rounded_edittext"
+            android:inputType="text"
+            android:padding="15dp"
+            android:layout_marginBottom="20dp"
+            tools:ignore="LabelFor" />
+
+        <!-- Email -->
+        <TextView
+            android:text="@string/email"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:autofillHints="Email"
+            android:background="@drawable/rounded_edittext"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="20dp"
+            tools:ignore="LabelFor" />
+
+        <!-- Password -->
+        <TextView
+            android:text="@string/password"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:autofillHints="password"
+            android:background="@drawable/rounded_edittext"
+            android:padding="15dp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="30dp"
+            tools:ignore="LabelFor" />
+
+        <!-- Sign Up Button -->
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/sign_up"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="@drawable/rounded_button"/>
+
+        <!-- Already Have a Account -->
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_have_an_account_login"
+            android:textColor="#FFF309"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="75dp"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
